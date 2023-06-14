@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* UTILITY */
+
+body {
+    font-family: 'Saira Condensed', sans-serif;
+}
+
+.dark-overlay {
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
+
+
+
+/* HOME SHOWCASE */
+
+#showcase  {
+    height: 600px;
+}
+
+#showcase .carousel-image-1 {
+    height: 600px;
+    background: url('/img/webdesign.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#showcase .carousel-image-2 {
+    height: 600px;
+    background: url('/img/video\ edit.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#showcase .carousel-image-3 {
+    height: 600px;
+    background: url('/img/wedding_stories.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+   
+/* ABOUT */
+
+#about-showcase {
+    background: url('/img/design.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+  
+}
+
+#about-showcase .dark-overlay {
+    height: 600px;
+    padding-top: 12rem;
+    padding-bottom: 15rem;
+}
+
+#about-section-2 .container {
+    background-color: rgb(212, 175, 55);
+}
+
+/* WORK */
+
+#work-showcase {
+    background: url('/img/design.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+  
+}
+
+#work-showcase .dark-overlay {
+    height: 600px;
+    padding-top: 12rem;
+    padding-bottom: 15rem;
+}
+
+#work-section-2 .container {
+    background-color: rgb(212, 175, 55);
+}
+
+
+.bg-sec {
+    background-color: rgb(232, 233, 233);
+}
+
+/* CONTACT */
+
+
+#contact-showcase {
+    background: url('/img/design.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+  
+}
+
+#contact-showcase .dark-overlay {
+    height: 600px;
+    padding-top: 12rem;
+    padding-bottom: 15rem;
+}
+
+
+
+
+/* MOBILE */
+
+@media only screen and (max-width: 414px) {
+    
+    #about-showcase {
+        background: url('/img/design.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 400px;
+      
+    }
+    
+    #about-showcase .dark-overlay {
+        height: 400px;
+        padding-top: 12rem;
+        padding-bottom: 6rem;
+    }
+
+    #about-showcase .display-4 {
+        font-size: 30px;
+    }
+
+    #about-showcase .h4 {
+        font-size: 20px;
+    }
+
+    #showcase  .display-4 {
+        font-size: 30px;
+    }
+
+    #showcase .fas {
+        font-size: 20px;
+    }
+
+    #services .display-4 {
+        font-size: 30px;
+    }
+
+    #categories .display-4 {
+        font-size: 30px;
+    }
+
+    #testemonials .display-4 {
+        font-size: 30px;
+    }
+
+    #footer .fab {
+        font-size: 20px;
+    }
+
+    #footer .h6 {
+        font-size: 14px;
+    }
+
+    #about-section .display-4 {
+        font-size: 30px;
+    }
+
+    #about-section-2 .display-4 {
+        font-size: 30px;
+    }
+
+    #about-section-3 .display-4 {
+        font-size: 30px;
+    }
+
+    #work-showcase {
+        background: url('/img/design.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 400px;
+      
+    }
+    
+    #work-showcase .dark-overlay {
+        height: 400px;
+        padding-top: 12rem;
+        padding-bottom: 6rem;
+    }
+
+     #gallery .display-5 {
+        font-size: 25px;
+     }
+
+     #gallery-logo .display-5 {
+        font-size: 25px;
+     }
+
+     #gallery-wedding .display-5 {
+        font-size: 25px;
+     }
+
+     #work-showcase .display-4 {
+        font-size: 30px;
+    }
+
+    #work-showcase .h4 {
+        font-size: 20px;
+    }
+
+    /* CONTACT SHOWCASE */
+
+    #contact-showcase {
+        background: url('/img/design.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 400px;
+      
+    }
+    
+    #contact-showcase .dark-overlay {
+        height: 400px;
+        padding-top: 12rem;
+        padding-bottom: 6rem;
+    }
+
+    #contact-showcase .display-4 {
+        font-size: 30px;
+    }
+
+    #contact-showcase .h4 {
+        font-size: 20px;
+    }
+
+    #message-send .display-5 {
+        font-size: 23px;
+    }
+
+    #message-send .h4 {
+        font-size: 19px;
+    }
+
+  }

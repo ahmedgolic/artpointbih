@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+    crossorigin="anonymous">
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Link to Style CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Saira+Condensed&display=swap" rel="stylesheet">
+    <title>artpoint</title>
+</head>
+<body>
+    <!-- START HERE -->
+
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark py-2 border-bottom fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"><img src="/img/logo/artpointlogo.png" style="width: 140px;" alt=""></a>
+        <button class="navbar-toggler" style="border: none;" data-target="#navbarNav" data-toggle="collapse">
+          <i class="fa-solid fa-bars-staggered"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link h5 pl-2" href="index.html">Home</a>
+            </li>
+            <li class="nav-item h5 pl-2">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item h5 pl-2">
+              <a class="nav-link" href="work.html">Work</a>
+            </li>
+            <li class="nav-item h5 pl-2">
+              <a class="nav-link" href="contact.html">Contact </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HOME SHOWCASE -->
+
+    <div id="showcase">
+        <div class="carousel slide" data-ride="carousel" id="myCarousel">
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item carousel-image-1 active">
+                <div class="dark-overlay">
+                  <div class="carousel-caption">
+                    <h1 class="display-4">Graphic & Web Design</h1>
+                    <a class="btn btn-outline-light my-2" href="#">Find More About Us</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item carousel-image-2">
+                <div class="dark-overlay">
+                  <div class="carousel-caption">
+                    <h1 class="display-4">Video and Photo Editing</h1>
+                    <a class="btn btn-outline-light my-2" href="#">Find More About Us</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item carousel-image-3">
+                <div class="dark-overlay">
+                  <div class="carousel-caption">
+                    <h1 class="display-4">Wedding Stories</h1>
+                    <a class="btn btn-outline-light my-2" href="#">Find More About Us</a>
+                  </div>
+                </div>
+              </div>
+
+        </div>
+          <a href="#myCarousel" data-slide="prev" class="carousel-control-prev">
+            <i class="fas fa-chevron-left fa-3x"></i>
+          </a>
+          <a href="#myCarousel" data-slide="next" class="carousel-control-next">
+            <i class="fas fa-chevron-right fa-3x"></i>
+          </a>
+      </div>
+    </div>
+
+    <!-- SERVICES -->
+
+    <div id="services" class="py-5 bg-light">
+      <div class="container">
+        <h1 class="display-4 text-center">Our Services.</h1>
+        <div class="row py-3">
+          <div class="col-md-4 text-center p-5" style="background: rgb(212, 175, 74);">
+            <i class="fa-solid fa-pen-nib fa-4x py-4"></i>
+            <h4>Graphic & Web Design</h4>
+            <p class="m-0">Graphic Design</p>
+            <p class="m-0">Web Design</p>
+            <p class="m-0">UX/Digital Design</p>
+            <button class="btn btn-outline-dark mt-3">Read More</button>
+          </div>
+
+          <div class="col-md-4 text-center p-5" style="background: rgb(216, 190, 61);">
+            <i class="fa-solid fa-video fa-4x py-4"></i>
+            <h4>Video & Photo Editing </h4>
+            <p class="m-0">Music Video Editing</p>
+            <p class="m-0">Photoshop editing</p>
+            <p class="m-0">Marketing video Editing</p>
+            <button class="btn btn-outline-dark mt-3">Read More</button>
+          </div>
+
+          <div class="col-md-4 text-center p-5" style="background: rgb(212, 175, 55);">
+            <i class="fa-solid fa-camera fa-4x py-4"></i> 
+            <h4>Wedding Stories</h4>
+            <p class="m-0">Create Wedding stories</p>
+            <p class="m-0">Wedding video production</p>
+            <p class="m-0">Wedding photo production</p>
+            <button class="btn btn-outline-dark mt-3">Read More</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="categories" class="bg-light py-2">
+      <div class="container">
+        <h1 class="display-4 text-center">About Us.</h1>
+        <div class="row py-5">
+          <div class="col-md-6">
+            <img src="/img/design.jpg" class="img-fluid rounded-circle" alt="">
+          </div>
+
+          <div class="col-md-6 p-5">
+            <h4 class="text-center mb-3">About Us</h4>
+             <p>Welcome to our website, we are ARTpoint team. 
+                We are graphic and web designers, also as a video and photo editors, 
+                based in Sarajevo. We build clean, appealing, and functional interfaces 
+                which comply with the latest web standards....</p>
+                <a class="btn btn-outline-dark" href="about.html">Read More..</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="testemonials" class="py-5">
+      <div class="container">
+        <h1 class="display-4 text-center pb-4">Partner About Us.</h1>
+        <div class="row">
+          <div class="col-md-3 text-center">
+            <div class="card">
+              <div class="card-header">
+                <i class="fa-solid fa-user fa-2x"></i>
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">Michale Choper</h4>
+                <p class="card-subtitle text-muted">Photo Editing</p>
+                <p class="card-text">
+                  Great job. Artpoint team knows exactly what they doing and they does it brilliantly.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 text-center">
+            <div class="card">
+              <div class="card-header">
+                <i class="fa-solid fa-user fa-2x"></i>
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">Samuel J. Brest</h4>
+                <p class="card-subtitle text-muted">Background Remove</p>
+                <p class="card-text">
+                  This is so great I don’t need to make any revisions to it at all. Thanks to Artpoint team.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 text-center">
+            <div class="card">
+              <div class="card-header">
+                <i class="fa-solid fa-user fa-2x"></i>
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">Daniel Johnson</h4>
+                <p class="card-subtitle text-muted">Photo Editing</p>
+                <p class="card-text">
+                  Great job. Artpoint team knows exactly what they doing and they does it brilliantly.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 text-center">
+            <div class="card">
+              <div class="card-header">
+                <i class="fa-solid fa-user fa-2x"></i>
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">Cherry Hill</h4>
+                <p class="card-subtitle text-muted">Photo Editing</p>
+                <p class="card-text">
+                  Artpoint team did a good job with the sample project </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--  -->
+
+
+    <!-- FOOTER -->
+
+    <footer id="footer" class="bg-dark py-4 ">
+      <div class="container">
+          <div class="row">
+              <div class="col d-flex justify-content-between align-items-center">
+                  <div>
+                      <p class="text-white h6">Copyright © 2019 ARTpoint. All Rights Reserved
+                        <button type="button" class="btn btn-primary mx-2 d-none d-lg-inline" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Contact Us</button>
+                      </p>
+                      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Send us a message</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body">
+                              <form>
+                                <div class="form-group">
+                                  <input type="name" class="form-control" id="recipient-name" placeholder="Name">
+                                </div>
+                            
+                                <div class="form-group">
+                                  <input type="email" class="form-control" id="recipient-name" placeholder="Email">
+
+                                </div>
+
+                                <div class="form-group">
+                                  <textarea class="form-control" id="message-text" placeholder="Message"></textarea>
+                                </div>
+                              </form>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                              <button type="button" class="btn btn-primary">Send message</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="d-flex" >
+                         <a class="nav-link text-white" href="https://www.instagram.com/carolijaweddings/" target="_blank">
+                          <i class="fab fa-instagram fa-2x"></i> 
+                         </a>
+
+                         <a  class="nav-link text-white" href="https://www.linkedin.com/in/ahmed-goli%C4%87-73571918b/" target="_blank" >
+                          <i class="fab fa-linkedin-in fa-2x"></i>                 
+                         </a>
+                         
+                         <a class="nav-link text-white" href="https://www.facebook.com/ahmed.golic" target="_blank">
+                          <i class="fab fa-facebook fa-2x"></i>
+                         </a>
+                                  
+                  </div>
+              </div>
+          </div>
+      </div>
+  </footer>
+
+   
+
+
+
+    <!-- ////////////// JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+    crossorigin="anonymous"></script>
+    <script>
+    // Get the current year for the copyright
+    $ ('#year').text (new Date().getFullYear()); 
+    </script>
+
+   
+</body>
+</html>
